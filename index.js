@@ -79,6 +79,9 @@ const wsProxy = createProxyMiddleware({
 
 server.on("upgrade", wsProxy.upgrade);
 
+// Proxy API routes before main handler
+app.use(["/users", "/notifications", "/info"], proxy);
+
 app.use("/", async (req, res, next) => {
     const relativePath = req.path.slice(1);
     const filePath = path.join(__dirname, "dist", relativePath);

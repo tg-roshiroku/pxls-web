@@ -13,3 +13,9 @@ services:
             - ./public:/app/public
         environment:
             - NODE_ENV=production
+        networks:
+            - pxls-network
+
+networks:
+  pxls-network:
+    external: true
