@@ -71,7 +71,7 @@ const proxy = createProxyMiddleware({
 });
 
 const wsProxy = createProxyMiddleware({
-    target: `ws://${config.proxyTo}/ws`,
+    target: `ws://${config.proxyTo}`,
     changeOrigin: true,
     ws: true,
     logLevel: "error",
@@ -92,7 +92,6 @@ app.use("/", async (req, res, next) => {
             title: config.title,
             lang: langCode,
             scriptLang: langCode === "en" ? "" : "_" + langCode,
-
             helpers: handlebarsHelpers(poFile),
         });
     } else if (/^\/profile(?:\/[\w-]+)?$/.test(req.path)) {
@@ -138,19 +137,17 @@ app.use("/", async (req, res, next) => {
             chatReportsOpenCount: (data.chatReports || []).filter(
                 (r) => !r.closed
             ).length,
-
             helpers: {
                 displayedFaction: () =>
                     data.user.factions.find(
                         (f) => f.id === data.user.displayedFactionId
                     ),
-
                 ...handlebarsHelpers(poFile),
             },
         });
     } else if (filesInDist.includes(relativePath)) {
         res.sendFile(filePath);
-    } else if (req.path === "/ws") {
+    } else if (req.path.startsWith("/ws")) {
         wsProxy(req, res, next);
     } else {
         proxy(req, res, next);
