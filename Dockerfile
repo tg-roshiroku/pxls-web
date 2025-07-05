@@ -2,10 +2,7 @@
 FROM node:20-alpine
 
 # Install git (required for GitHub dependencies)
-RUN apk add --no-cache git curl
-
-# Test network connectivity and DNS resolution
-RUN curl -I https://codeload.github.com/ || echo "GitHub connectivity test failed"
+RUN apk add --no-cache git
 
 # Set working directory
 WORKDIR /app
@@ -16,19 +13,8 @@ COPY package*.json ./
 # Configure git to use HTTPS instead of SSH for GitHub
 RUN git config --global url."https://github.com/".insteadOf "git@github.com:"
 
-# Configure npm to use alternative registry or settings if needed
-RUN npm config set registry https://registry.npmjs.org/
-
-# Try to install dependencies with retries and alternative approaches
-RUN npm install --verbose || \
-   (echo "First attempt failed, trying with different settings..." && \
-   npm config set fetch-retry-mintimeout 20000 && \
-   npm config set fetch-retry-maxtimeout 120000 && \
-   npm config set fetch-retries 5 && \
-   npm install) || \
-   (echo "Second attempt failed, trying without package-lock..." && \
-   rm -f package-lock.json && \
-   npm install)
+# Install dependencies
+RUN npm install
 
 # Copy source code
 COPY . .
