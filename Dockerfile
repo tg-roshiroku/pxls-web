@@ -1,11 +1,17 @@
 # Frontend Dockerfile for pxls-web
 FROM node:20-alpine
 
+# Install git (required for GitHub dependencies)
+RUN apk add --no-cache git
+
 # Set working directory
 WORKDIR /app
 
 # Copy package files
 COPY package*.json ./
+
+# Configure git to use HTTPS instead of SSH for GitHub
+RUN git config --global url."https://github.com/".insteadOf "git@github.com:"
 
 # Install dependencies
 RUN npm install
