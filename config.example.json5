@@ -5,6 +5,9 @@
   // The host to proxy back end requests to (no protocol, no trailing slash)
   proxyTo: 'localhost:4567',
 
+  // Origin for cors
+  origin: http://localhost.5173,
+
   // Displayed on each page
   title: 'pxls.space',
 }
