@@ -22,6 +22,9 @@ COPY . .
 # Create config from example if it doesn't exist
 RUN if [ ! -f config.json5 ]; then cp config.example.json5 config.json5; fi
 
+# Build the application (creates dist directory)
+RUN npm run build
+
 # Expose port
 EXPOSE 3000
 
