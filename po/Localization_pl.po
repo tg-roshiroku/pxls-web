@@ -143,6 +143,7 @@ msgstr "Frakcja została pomyślnie utworzona."
 #: /views/profile.handlebars
 msgid "Error creating faction. Please try again later."
 msgstr "Błąd podczas tworzenia frakcji. Spróbuj ponownie później."
+
 #: /views/profile.handlebars
 msgid "Faction deleted successfully."
 msgstr "Frakcja została pomyślnie usunięta."
@@ -238,6 +239,7 @@ msgstr "Nie jesteś członkiem tej frakcji."
 #: /views/profile.handlebars
 msgid "You are already a member of this faction."
 msgstr "Już jesteś członkiem tej frakcji."
+
 #: /views/profile.handlebars
 msgid "Faction settings updated successfully."
 msgstr "Pomyślnie zaktualizowano ustawienia frakcji."
