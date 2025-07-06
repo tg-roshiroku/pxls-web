@@ -1,1 +1,540 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pxls\n"
+"POT-Creation-Date: 2024-09-07T20:41:44.977Z\n"
+"Language: pl\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: /views/error.handlebars /views/profile.handlebars /public/include/user.js
+msgid "My Profile"
+msgstr "Mój profil"
+
+#: /views/error.handlebars /views/profile.handlebars
+msgid "My Factions"
+msgstr "Moje frakcje"
+
+#. HTTP status code name
+#: /views/error.handlebars
+msgid "Not Found"
+msgstr "Nie znaleziono"
+
+#: /views/error.handlebars
+msgid "The content you requested could not be found at this URL. If you believe this is an error, please contact a developer."
+msgstr "Żądana treść nie została znaleziona pod tym adresem URL. Jeśli uważasz, że to błąd, skontaktuj się z deweloperem."
+
+#: /views/error.handlebars
+msgid "Back to Pxls"
+msgstr "Powrót do Pxls"
+
+#. HTTP status code name
+#: /views/error.handlebars
+msgid "Not Authenticated"
+msgstr "Nie uwierzytelniono"
+
+#: /views/error.handlebars
+msgid "You must be logged in to access this data. Please go back to pxls and go through the authentication process."
+msgstr "Musisz być zalogowany, aby uzyskać dostęp do tych danych. Wróć do Pxls i przejdź proces uwierzytelniania."
+
+#. HTTP status code name
+#: /views/error.handlebars
+msgid "Not Allowed"
+msgstr "Brak uprawnień"
+
+#: /views/error.handlebars
+msgid "The action you attempted to perform is not allowed or resulted in an error. Please ensure you have access to the endpoint and try again later."
+msgstr "Działanie, które próbowałeś wykonać, jest niedozwolone lub zakończyło się błędem. Upewnij się, że masz dostęp do tego zasobu i spróbuj ponownie później."
+#: /views/error.handlebars
+msgid "Internal Server Error"
+msgstr "Wewnętrzny błąd serwera"
+
+#: /views/error.handlebars
+msgid "An unexpected error occurred while processing your request. Please try again later or contact a developer."
+msgstr "Wystąpił nieoczekiwany błąd podczas przetwarzania Twojego żądania. Spróbuj ponownie później lub skontaktuj się z deweloperem."
+
+#: /views/profile.handlebars
+msgid "Your Factions"
+msgstr "Twoje frakcje"
+
+#: /views/profile.handlebars
+msgid "Loading your profile..."
+msgstr "Ładowanie profilu..."
+
+#: /views/profile.handlebars
+msgid "You have not joined any factions yet."
+msgstr "Nie dołączyłeś jeszcze do żadnej frakcji."
+
+#: /views/profile.handlebars
+msgid "Click the + in the top right of the Factions tab to join one!"
+msgstr "Kliknij + w prawym górnym rogu zakładki Frakcje, aby dołączyć!"
+
+#: /views/profile.handlebars
+msgid "You are not currently a member of any faction."
+msgstr "Nie jesteś obecnie członkiem żadnej frakcji."
+
+#: /views/profile.handlebars
+msgid "Created:"
+msgstr "Utworzono:"
+
+#: /views/profile.handlebars
+msgid "Members:"
+msgstr "Członkowie:"
+
+#: /views/profile.handlebars
+msgid "Owner:"
+msgstr "Właściciel:"
+
+#: /views/profile.handlebars
+msgid "Open"
+msgstr "Otwarta"
+
+#: /views/profile.handlebars
+msgid "Closed"
+msgstr "Zamknięta"
+
+#: /views/profile.handlebars
+msgid "Join"
+msgstr "Dołącz"
+
+#: /views/profile.handlebars
+msgid "Leave"
+msgstr "Opuść"
+
+#: /views/profile.handlebars
+msgid "Disband"
+msgstr "Rozwiąż"
+
+#: /views/profile.handlebars
+msgid "Delete Faction"
+msgstr "Usuń frakcję"
+
+#: /views/profile.handlebars
+msgid "Are you sure you want to disband this faction?"
+msgstr "Czy na pewno chcesz rozwiązać tę frakcję?"
+
+#: /views/profile.handlebars
+msgid "This action cannot be undone."
+msgstr "Tej operacji nie można cofnąć."
+
+#: /views/profile.handlebars
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: /views/profile.handlebars
+msgid "Confirm"
+msgstr "Potwierdź"
+
+#: /views/profile.handlebars
+msgid "Faction Name"
+msgstr "Nazwa frakcji"
+
+#: /views/profile.handlebars
+msgid "Create"
+msgstr "Utwórz"
+
+#: /views/profile.handlebars
+msgid "A faction with that name already exists."
+msgstr "Frakcja o takiej nazwie już istnieje."
+
+#: /views/profile.handlebars
+msgid "Faction created successfully."
+msgstr "Frakcja została pomyślnie utworzona."
+
+#: /views/profile.handlebars
+msgid "Error creating faction. Please try again later."
+msgstr "Błąd podczas tworzenia frakcji. Spróbuj ponownie później."
+#: /views/profile.handlebars
+msgid "Faction deleted successfully."
+msgstr "Frakcja została pomyślnie usunięta."
+
+#: /views/profile.handlebars
+msgid "Error deleting faction. Please try again later."
+msgstr "Błąd podczas usuwania frakcji. Spróbuj ponownie później."
+
+#: /views/profile.handlebars
+msgid "Faction left successfully."
+msgstr "Pomyślnie opuszczono frakcję."
+
+#: /views/profile.handlebars
+msgid "Error leaving faction. Please try again later."
+msgstr "Błąd podczas opuszczania frakcji. Spróbuj ponownie później."
+
+#: /views/profile.handlebars
+msgid "Faction joined successfully."
+msgstr "Pomyślnie dołączono do frakcji."
+
+#: /views/profile.handlebars
+msgid "Error joining faction. Please try again later."
+msgstr "Błąd podczas dołączania do frakcji. Spróbuj ponownie później."
+
+#: /views/profile.handlebars
+msgid "Create Faction"
+msgstr "Utwórz frakcję"
+
+#: /views/profile.handlebars
+msgid "New Faction Name"
+msgstr "Nazwa nowej frakcji"
+
+#: /views/profile.handlebars
+msgid "Close Faction (invite only)"
+msgstr "Zamknij frakcję (tylko na zaproszenie)"
+
+#: /views/profile.handlebars
+msgid "Faction must have a name."
+msgstr "Frakcja musi mieć nazwę."
+
+#: /views/profile.handlebars
+msgid "Invalid faction name."
+msgstr "Nieprawidłowa nazwa frakcji."
+
+#: /views/profile.handlebars
+msgid "Disband Faction"
+msgstr "Rozwiąż frakcję"
+
+#: /views/profile.handlebars
+msgid "Are you sure you want to leave this faction?"
+msgstr "Czy na pewno chcesz opuścić tę frakcję?"
+
+#: /views/profile.handlebars
+msgid "You will have to be invited again to rejoin."
+msgstr "Aby ponownie dołączyć, musisz otrzymać zaproszenie."
+
+#: /views/profile.handlebars
+msgid "You are not allowed to join this faction."
+msgstr "Nie masz uprawnień, aby dołączyć do tej frakcji."
+
+#: /views/profile.handlebars
+msgid "You have already requested to join this faction."
+msgstr "Już wysłałeś prośbę o dołączenie do tej frakcji."
+
+#: /views/profile.handlebars
+msgid "Request to Join"
+msgstr "Poproś o dołączenie"
+
+#: /views/profile.handlebars
+msgid "Request sent!"
+msgstr "Prośba została wysłana!"
+
+#: /views/profile.handlebars
+msgid "Only the owner can disband this faction."
+msgstr "Tylko właściciel może rozwiązać tę frakcję."
+
+#: /views/profile.handlebars
+msgid "You are the owner of this faction."
+msgstr "Jesteś właścicielem tej frakcji."
+
+#: /views/profile.handlebars
+msgid "You have successfully joined the faction."
+msgstr "Pomyślnie dołączyłeś do frakcji."
+
+#: /views/profile.handlebars
+msgid "An error occurred while processing your request."
+msgstr "Wystąpił błąd podczas przetwarzania Twojej prośby."
+
+#: /views/profile.handlebars
+msgid "You are not a member of this faction."
+msgstr "Nie jesteś członkiem tej frakcji."
+
+#: /views/profile.handlebars
+msgid "You are already a member of this faction."
+msgstr "Już jesteś członkiem tej frakcji."
+#: /views/profile.handlebars
+msgid "Faction settings updated successfully."
+msgstr "Pomyślnie zaktualizowano ustawienia frakcji."
+
+#: /views/profile.handlebars
+msgid "Error updating faction settings. Please try again later."
+msgstr "Błąd podczas aktualizacji ustawień frakcji. Spróbuj ponownie później."
+
+#: /views/profile.handlebars
+msgid "Save"
+msgstr "Zapisz"
+
+#: /views/profile.handlebars
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: /views/profile.handlebars
+msgid "General"
+msgstr "Ogólne"
+
+#: /views/profile.handlebars
+msgid "Access"
+msgstr "Dostęp"
+
+#: /views/profile.handlebars
+msgid "Language"
+msgstr "Język"
+
+#: /views/profile.handlebars
+msgid "Theme"
+msgstr "Motyw"
+
+#: /views/profile.handlebars
+msgid "Dark"
+msgstr "Ciemny"
+
+#: /views/profile.handlebars
+msgid "Light"
+msgstr "Jasny"
+
+#: /views/profile.handlebars
+msgid "Auto"
+msgstr "Automatyczny"
+
+#: /views/profile.handlebars
+msgid "Notifications"
+msgstr "Powiadomienia"
+
+#: /views/profile.handlebars
+msgid "Enable Desktop Notifications"
+msgstr "Włącz powiadomienia na pulpicie"
+
+#: /views/profile.handlebars
+msgid "Enable Sound"
+msgstr "Włącz dźwięk"
+
+#: /views/profile.handlebars
+msgid "Change Username"
+msgstr "Zmień nazwę użytkownika"
+
+#: /views/profile.handlebars
+msgid "Current Password"
+msgstr "Aktualne hasło"
+
+#: /views/profile.handlebars
+msgid "New Username"
+msgstr "Nowa nazwa użytkownika"
+
+#: /views/profile.handlebars
+msgid "Change Password"
+msgstr "Zmień hasło"
+
+#: /views/profile.handlebars
+msgid "New Password"
+msgstr "Nowe hasło"
+
+#: /views/profile.handlebars
+msgid "Confirm New Password"
+msgstr "Potwierdź nowe hasło"
+
+#: /views/profile.handlebars
+msgid "Password changed successfully."
+msgstr "Hasło zostało pomyślnie zmienione."
+
+#: /views/profile.handlebars
+msgid "Username changed successfully."
+msgstr "Nazwa użytkownika została pomyślnie zmieniona."
+
+#: /views/profile.handlebars
+msgid "Invalid password."
+msgstr "Nieprawidłowe hasło."
+
+#: /views/profile.handlebars
+msgid "Passwords do not match."
+msgstr "Hasła nie są zgodne."
+
+#: /views/profile.handlebars
+msgid "Username is already taken."
+msgstr "Ta nazwa użytkownika jest już zajęta."
+
+
+#: /views/profile.handlebars
+msgid "Invalid username."
+msgstr "Nieprawidłowa nazwa użytkownika."
+
+#: /views/profile.handlebars
+msgid "Account Settings"
+msgstr "Ustawienia konta"
+
+#: /views/profile.handlebars
+msgid "Delete Account"
+msgstr "Usuń konto"
+
+#: /views/profile.handlebars
+msgid "Are you sure you want to delete your account?"
+msgstr "Czy na pewno chcesz usunąć swoje konto?"
+
+#: /views/profile.handlebars
+msgid "This action is irreversible."
+msgstr "Tej operacji nie można cofnąć."
+
+#: /views/profile.handlebars
+msgid "Delete"
+msgstr "Usuń"
+
+#: /views/profile.handlebars
+msgid "Account deleted successfully."
+msgstr "Konto zostało pomyślnie usunięte."
+
+#: /views/profile.handlebars
+msgid "Error deleting account. Please try again later."
+msgstr "Błąd podczas usuwania konta. Spróbuj ponownie później."
+
+#: /views/profile.handlebars
+msgid "Profile"
+msgstr "Profil"
+
+#: /views/profile.handlebars
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+#: /views/profile.handlebars
+msgid "Email"
+msgstr "Email"
+
+#: /views/profile.handlebars
+msgid "Change Email"
+msgstr "Zmień email"
+
+#: /views/profile.handlebars
+msgid "New Email"
+msgstr "Nowy email"
+
+#: /views/profile.handlebars
+msgid "Email changed successfully."
+msgstr "Email został pomyślnie zmieniony."
+
+#: /views/profile.handlebars
+msgid "Invalid email address."
+msgstr "Nieprawidłowy adres email."
+
+#: /views/profile.handlebars
+msgid "Email is already in use."
+msgstr "Ten adres email jest już używany."
+
+#: /views/profile.handlebars
+msgid "Notifications Settings"
+msgstr "Ustawienia powiadomień"
+
+#: /views/profile.handlebars
+msgid "Enable Email Notifications"
+msgstr "Włącz powiadomienia email"
+
+#: /views/profile.handlebars
+msgid "Changes saved."
+msgstr "Zmiany zostały zapisane."
+
+#: /views/profile.handlebars
+msgid "Something went wrong."
+msgstr "Coś poszło nie tak."
+
+#: /views/profile.handlebars
+msgid "Try again later."
+msgstr "Spróbuj ponownie później."
+
+#: /views/profile.handlebars
+msgid "Password is too short."
+msgstr "Hasło jest za krótkie."
+
+#: /views/profile.handlebars
+msgid "Password must contain at least one number."
+msgstr "Hasło musi zawierać przynajmniej jedną cyfrę."
+
+#: /views/profile.handlebars
+msgid "Password must contain at least one uppercase letter."
+msgstr "Hasło musi zawierać przynajmniej jedną wielką literę."
+
+#: /views/profile.handlebars
+msgid "Password must contain at least one lowercase letter."
+msgstr "Hasło musi zawierać przynajmniej jedną małą literę."
+
+#: /views/profile.handlebars
+msgid "Password must contain at least one special character."
+msgstr "Hasło musi zawierać przynajmniej jeden znak specjalny."
+
+#: /views/profile.handlebars
+msgid "Enter your current password to confirm changes."
+msgstr "Wprowadź swoje aktualne hasło, aby potwierdzić zmiany."
+
+#: /views/profile.handlebars
+msgid "Show Password"
+msgstr "Pokaż hasło"
+
+#: /views/profile.handlebars
+msgid "Hide Password"
+msgstr "Ukryj hasło"
+
+#: /views/profile.handlebars
+msgid "Account Security"
+msgstr "Bezpieczeństwo konta"
+
+#: /views/profile.handlebars
+msgid "Two-Factor Authentication"
+msgstr "Uwierzytelnianie dwuskładnikowe"
+
+#: /views/profile.handlebars
+msgid "Enable 2FA"
+msgstr "Włącz 2FA"
+
+#: /views/profile.handlebars
+msgid "Disable 2FA"
+msgstr "Wyłącz 2FA"
+
+#: /views/profile.handlebars
+msgid "Scan this QR code with your authenticator app."
+msgstr "Zeskanuj ten kod QR za pomocą aplikacji uwierzytelniającej."
+
+#: /views/profile.handlebars
+msgid "Enter the code generated by your app."
+msgstr "Wprowadź kod wygenerowany przez aplikację."
+
+#: /views/profile.handlebars
+msgid "2FA enabled successfully."
+msgstr "Uwierzytelnianie 2FA zostało pomyślnie włączone."
+
+#: /views/profile.handlebars
+msgid "2FA disabled successfully."
+msgstr "Uwierzytelnianie 2FA zostało pomyślnie wyłączone."
+
+#: /views/profile.handlebars
+msgid "Invalid authentication code."
+msgstr "Nieprawidłowy kod uwierzytelniający."
+
+#: /views/profile.handlebars
+msgid "Backup Codes"
+msgstr "Kody zapasowe"
+
+#: /views/profile.handlebars
+msgid "Use these codes if you lose access to your authenticator."
+msgstr "Użyj tych kodów, jeśli utracisz dostęp do aplikacji uwierzytelniającej."
+
+#: /views/profile.handlebars
+msgid "Keep them somewhere safe!"
+msgstr "Przechowuj je w bezpiecznym miejscu!"
+
+#: /views/profile.handlebars
+msgid "Regenerate Backup Codes"
+msgstr "Wygeneruj ponownie kody zapasowe"
+
+#: /views/profile.handlebars
+msgid "Codes regenerated."
+msgstr "Kody zostały ponownie wygenerowane."
+
+#: /views/profile.handlebars
+msgid "Are you sure you want to regenerate your backup codes?"
+msgstr "Czy na pewno chcesz ponownie wygenerować swoje kody zapasowe?"
+
+#: /views/profile.handlebars
+msgid "Previous codes will no longer work."
+msgstr "Poprzednie kody nie będą już działać."
+
+#: /views/profile.handlebars
+msgid "Download Codes"
+msgstr "Pobierz kody"
+
+#: /views/profile.handlebars
+msgid "Copy Codes"
+msgstr "Skopiuj kody"
+
+#: /views/profile.handlebars
+msgid "Copied!"
+msgstr "Skopiowano!"
+
+#: /views/profile.handlebars
+msgid "Error enabling 2FA. Please try again."
+msgstr "Błąd podczas włączania 2FA. Spróbuj ponownie."
+
+#: /views/profile.handlebars
+msgid "Error disabling 2FA. Please try again."
+msgstr "Błąd podczas wyłączania 2FA. Spróbuj ponownie."
 
