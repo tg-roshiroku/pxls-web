@@ -535,7 +535,11 @@ msgstr "Swedish"
 
 #: /views/index.handlebars
 msgid "Finnish"
-msgstr ""
+msgstr "Finnish"
+
+#: /views/index.handlebars
+msgid "Polish"
+msgstr "Polish"
 
 #: /views/index.handlebars
 msgid "Toki Pona"
