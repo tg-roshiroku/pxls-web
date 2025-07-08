@@ -3,7 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
 "Project-Id-Version: pxls\n"
 "Language: pl\n"
 
@@ -61,7 +60,7 @@ msgstr "Ładowanie Mapy Aktywności (naciśnij <kbd>H</kbd>, aby anulować)"
 
 #: /views/index.handlebars
 msgid "Loading Virginmap (press <kbd>X</kbd> to cancel)"
-msgstr "Ładowanie Mapy Niewykorzystywanej (naciśnij <kbd>X</kbd>, aby anulować)"
+msgstr "Ładowanie Mapy nietkniętych pikseli (naciśnij <kbd>X</kbd>, aby anulować)"
 
 #: /views/index.handlebars
 msgid "Logout"
@@ -265,7 +264,7 @@ msgstr "<kbd>P</kbd> aby zachować"
 
 #: /views/index.handlebars
 msgid "overlays;user activity;pixels placed pixels;heatmap hidden;heatmap shown;hide heatmap;show heatmap"
-msgstr "nakładki;aktywność użytkownika;kolboracje pixelkowe położone;mapa aktywności ukryta;mapa aktywności widoczna;pokaż mape aktywności;schowaj mape aktywności"
+msgstr "nakładki;aktywność użytkownika;pixele położone pixele;mapa aktywności ukryta;mapa aktywności widoczna;pokaż mape aktywności;schowaj mape aktywności"
 
 #: /views/index.handlebars
 msgid "<kbd>H</kbd> to toggle heatmap"
@@ -273,15 +272,15 @@ msgstr "<kbd>H</kbd> aby uruchomić mapę aktywności"
 
 #: /views/index.handlebars
 msgid "overlays;user activity;pixels unplaced pixels;virginmap hidden;virginmap shown;hide virginmap;show virginmap"
-msgstr "nakładki;aktywność użytkownika;kolboracje pixelkowe do położenia;mapa niewykorzystywana ukryta;mapa niewykorzystywana widoczna;pokaż mape niewykorzystywaną;schowaj mape niewykorzystywaną"
+msgstr "nakładki;aktywność użytkownika;kolboracje pixele nie położone pixele;mapa niewykorzystywana ukryta;Mapa nietkniętych pikseli widoczna;pokaż mapę nietkniętych pikseli;schowaj mape niewykorzystywaną"
 
 #: /views/index.handlebars
 msgid "<kbd>X</kbd> to toggle virginmap"
-msgstr "<kbd>X</kbd> aby uruchomić mapę niewykorzystywaną"
+msgstr "<kbd>X</kbd> aby uruchomić mapę nietkniętych pikseli"
 
 #: /views/index.handlebars
 msgid "overlays;user activity;pixels placed pixels;wipe;clean;"
-msgstr "nakładki;aktywność użytkownika;kolboracje pixelkowe do położenia;wyczyść;usuń;"
+msgstr "nakładki;aktywność użytkownika;pixele położone pixele;wyczyść;usuń;"
 
 #: /views/index.handlebars
 msgid "<kbd>O</kbd> to clear heatmap"
@@ -289,11 +288,11 @@ msgstr "<kbd>O</kbd> aby wyczyścić mapę aktywności"
 
 #: /views/index.handlebars
 msgid "overlays;user activity;pixels unplaced pixels;wipe;clean;"
-msgstr "nakładki;aktywność użytkowników;kolboracje pixelkowe do położenia;wyczyść;usuń;"
+msgstr "nakładki;aktywność użytkowników;pixele nie położone pixele;wyczyść;usuń;"
 
 #: /views/index.handlebars
 msgid "<kbd>U</kbd> to clear virginmap"
-msgstr "<kbd>U</kbd> aby wyczyścić mapę niewykorzystaną"
+msgstr "<kbd>U</kbd> aby wyczyścić mapę nietkniętych piksel"
 
 #: /views/index.handlebars
 msgid "next color;previous color"
@@ -558,11 +557,11 @@ msgstr "Domyślny"
 
 #: /views/index.handlebars
 msgid "hide reticule;hide reticle;reticule shown reticle shown;reticule hidden;reticle hidden"
-msgstr ""
+msgstr "schowaj kratki;showaj kratki;pokaż kratki pokaż kratki;kratki schowane;kratki showane"
 
 #: /views/index.handlebars
 msgid "Show reticule"
-msgstr ""
+msgstr "Pokaż kratki"
 
 #: /views/index.handlebars
 msgid "hide cursor;cursor shown;cursor hidden"
@@ -574,11 +573,11 @@ msgstr "Pokaż kursor"
 
 #: /views/index.handlebars
 msgid "darkness filter"
-msgstr ""
+msgstr "Filtr ciemności"
 
 #: /views/index.handlebars
 msgid "Enable color brightness"
-msgstr ""
+msgstr "Dopuść jasność kolorów"
 
 #: /views/index.handlebars
 msgid "Warning: Known to cause fuzziness in Chrome on some Mac/Linux installs"
@@ -590,23 +589,23 @@ msgstr "Jasność kolorów:"
 
 #: /views/index.handlebars
 msgid "keep current selected;keep curent color;place"
-msgstr ""
+msgstr "zatrzymaj aktualnie zaznaczone;zatrzymaj aktualny kolor;postaw"
 
 #: /views/index.handlebars
 msgid "Deselect color after placing"
-msgstr ""
+msgstr "Odznacz kolor po ułożeniu pixela"
 
 #: /views/index.handlebars
 msgid "mousewheel;palette scrolling"
-msgstr ""
+msgstr "przycisk scroll'a;scroll'owanie palety kolorów"
 
 #: /views/index.handlebars
 msgid "Enable scrolling on the palette to switch colors"
-msgstr ""
+msgstr "Dopuść scroll'owanie palety kolorów w celu przełączania kolorów"
 
 #: /views/index.handlebars
 msgid "reverse scrolling;mousewheel;palette scrolling;enable scrolling on the palette to switch colors"
-msgstr ""
+msgstr "scroll'owanie do siebie;przycisk scrolowania;"
 
 #: /views/index.handlebars
 msgid "Invert scroll direction"
@@ -614,31 +613,31 @@ msgstr "Odwróć kierunek scrollowania"
 
 #: /views/index.handlebars
 msgid "indexed colors;palette indicies"
-msgstr ""
+msgstr "indeks kolorów;wskaźnik palety"
 
 #: /views/index.handlebars
 msgid "Add numbers to palette entries"
-msgstr ""
+msgstr "Przypisz numery do poszczególnych kolorów"
 
 #: /views/index.handlebars
 msgid "scrollbar;palette scrolling"
-msgstr ""
+msgstr "pasek przewijania;scroll'owanie palety"
 
 #: /views/index.handlebars
 msgid "Enable thin scrollbar"
-msgstr ""
+msgstr "Włącz cienki pasek przewijania"
 
 #: /views/index.handlebars
 msgid "scrollbar;palette scrolling;palette stack"
-msgstr ""
+msgstr "pasek przewijania;scroll'owanie palety;łączenie palet"
 
 #: /views/index.handlebars
 msgid "Enable palette stacking"
-msgstr ""
+msgstr "Dopuść łączenie kolorów"
 
 #: /views/index.handlebars
 msgid "floating bubble location"
-msgstr ""
+msgstr "lokalizacja pływającego bąbelka"
 
 #: /views/index.handlebars
 msgid "Bubble position:"
@@ -662,7 +661,7 @@ msgstr "Prawy dół"
 
 #: /views/index.handlebars
 msgid "broken;offset workaround"
-msgstr ""
+msgstr "uszkodzone;obejście przesunięcia"
 
 #: /views/index.handlebars
 msgid "Attempt to fix canvas displacement bug in Chrome 78+"
@@ -678,7 +677,7 @@ msgstr "Ustawienia czatu"
 
 #: /views/index.handlebars
 msgid "username;color;colour"
-msgstr ""
+msgstr "nazwa użytkownika;kolor;kolor"
 
 #: /views/index.handlebars
 msgid "Username Color:"
@@ -726,7 +725,7 @@ msgstr "odznaki;liczba pikseli;umieszczono pikseli"
 
 #: /views/index.handlebars
 msgid "Show pixel-placed badges"
-msgstr ""
+msgstr "Pokaż odznaki umieszczone w pikselach"
 
 #: /views/index.handlebars
 msgid "badges;factions"
@@ -734,15 +733,15 @@ msgstr "odznaki;frakcje"
 
 #: /views/index.handlebars
 msgid "Show faction tags"
-msgstr ""
+msgstr "Pokaż tagi frakcji"
 
 #: /views/index.handlebars
 msgid "template urls;template links;template name"
-msgstr ""
+msgstr "adresy URL szablonów; linki szablonów; nazwa szablonu"
 
 #: /views/index.handlebars
 msgid "Replace template titles with URLs in chat where applicable"
-msgstr ""
+msgstr "W razie potrzeby zastąp tytuły szablonów adresami URL w czacie"
 
 #: /views/index.handlebars
 msgid "chat orientation;chat position"
@@ -750,7 +749,7 @@ msgstr "orientacja czatu;pozycja czatu"
 
 #: /views/index.handlebars
 msgid "Enable horizontal chat"
-msgstr ""
+msgstr "Włącz czat poziomy"
 
 #: /views/index.handlebars
 msgid "banner;animation"
@@ -758,31 +757,31 @@ msgstr "banner;animacja"
 
 #: /views/index.handlebars
 msgid "Enable the rotating banner under chat"
-msgstr ""
+msgstr "Włącz obrotowy baner pod czatem"
 
 #: /views/index.handlebars
 msgid "max;messages;truncate"
-msgstr ""
+msgstr "max;wiadomość;długość"
 
 #: /views/index.handlebars
 msgid "Maximum amount of chat messages:"
-msgstr ""
+msgstr "Maksymalna ilość wiadomości na czacie:"
 
 #: /views/index.handlebars
 msgid "link;url;behaviour"
-msgstr ""
+msgstr "link;url;zachowanie"
 
 #: /views/index.handlebars
 msgid "Default internal link action click:"
-msgstr ""
+msgstr "Domyślna akcja kliknięcia linku wewnętrznego:"
 
 #: /views/index.handlebars
 msgid "link;url;behaviour;external;bypass;skip"
-msgstr ""
+msgstr "link;url;zachowanie;zewnętrzne;obejście;pomiń"
 
 #: /views/index.handlebars
 msgid "Skip external link popup"
-msgstr ""
+msgstr "Pomiń linki zewnętrzne"
 
 #: /views/index.handlebars
 msgid "Note: Has no effect if external link popups are disabled by the server."
@@ -798,11 +797,11 @@ msgstr "Tryb odznaki ikony czatu:"
 
 #: /views/index.handlebars
 msgid "Show on unread ping"
-msgstr ""
+msgstr "Pokaż nie przeczytane pingi"
 
 #: /views/index.handlebars
 msgid "Show on unread message"
-msgstr ""
+msgstr "Pokaż nie przeczytane wiadomości"
 
 #: /views/index.handlebars
 msgid "Never show"
@@ -818,23 +817,23 @@ msgstr "Tryb wyróżnienia ikony czatu:"
 
 #: /views/index.handlebars
 msgid "ignored;ignores;unignore;blocked;blocking;unblock"
-msgstr ""
+msgstr "zignorowano;ignoruje;przestań ignorować;zablokowano;blokowanie;odblokowano"
 
 #: /views/index.handlebars
 msgid "Ignores"
-msgstr ""
+msgstr "Ignoruje"
 
 #: /views/index.handlebars
 msgid "unignore;unblock"
-msgstr ""
+msgstr "przestań ingnorować;odblokuj"
 
 #: /views/index.handlebars
 msgid "Unignore"
-msgstr ""
+msgstr "Przestań ignorować"
 
 #: /views/index.handlebars
 msgid "overlays;virginmap;heatmap;grid"
-msgstr ""
+msgstr "nakładki;mapa nietkniętych pikseli;mapa aktywności;siatka"
 
 #: /views/index.handlebars
 msgid "Overlay Settings"
@@ -842,15 +841,15 @@ msgstr "Ustawienia nakładki"
 
 #: /views/index.handlebars
 msgid "heatmap;heatmap opacity;clear heatmap"
-msgstr ""
+msgstr "mapa aktywności;vidoczność mapy aktywności;wyczyść mapę aktywności"
 
 #: /views/index.handlebars
 msgid "Heatmap"
-msgstr ""
+msgstr "Mapa aktywności"
 
 #: /views/index.handlebars
 msgid "Turn on heatmap"
-msgstr ""
+msgstr "Włącz mapę aktywności"
 
 #: /views/index.handlebars
 msgid "(toggle with <kbd>H</kbd>)"
@@ -858,35 +857,35 @@ msgstr "(przełączanie za pomocą <kbd>H</kbd>)"
 
 #: /views/index.handlebars
 msgid "overlays;activity;pixels placed pixels;wipe;clean"
-msgstr ""
+msgstr "makładki;aktywność;kolaboracje"
 
 #: /views/index.handlebars
 msgid "Clear heatmap"
-msgstr "Wyczyść mapę cieplną"
+msgstr "Wyczyść mapę aktywności"
 
 #: /views/index.handlebars
 msgid "(hotkey: <kbd>O</kbd>)"
-msgstr ""
+msgstr "(skrót klawiszowy: <kbd>O</kbd>)"
 
 #: /views/index.handlebars
 msgid "overlays;user activity;pixels placed pixels;transparency"
-msgstr ""
+msgstr "nakładki;aktywność użytkownika;piksele umieszczone piksele;przezroczystość"
 
 #: /views/index.handlebars
 msgid "Heatmap background opacity:"
-msgstr ""
+msgstr "Krycie tła mapy aktywności:"
 
 #: /views/index.handlebars
 msgid "virginmap;virginmap opacity;clear virginmap"
-msgstr ""
+msgstr "mapa nieużywana;widoczność mapy nieużuwanej;wyczyść mapę nieużywaną"
 
 #: /views/index.handlebars
 msgid "Virginmap"
-msgstr ""
+msgstr "Mapa nietkniętych pikseli"
 
 #: /views/index.handlebars
 msgid "Turn on virginmap"
-msgstr ""
+msgstr "Włącz mapę nietkniętych pikseli"
 
 #: /views/index.handlebars
 msgid "(toggle with <kbd>X</kbd>)"
@@ -894,23 +893,23 @@ msgstr "(przełączanie za pomocą <kbd>X</kbd>)"
 
 #: /views/index.handlebars
 msgid "overlays;user activity;pixels unplaced pixels;transparency"
-msgstr ""
+msgstr "nakładki;aktywność użytkownika;piksele nieumieszczone piksele;przezroczystość"
 
 #: /views/index.handlebars
 msgid "Virginmap background opacity:"
-msgstr ""
+msgstr "Krycie tła mapy nieużywanej:"
 
 #: /views/index.handlebars
 msgid "overlays;activity;pixels unplaced pixels;wipe;clean"
-msgstr ""
+msgstr "nakładki;aktywność;piksele nieumieszczone piksele;wycieranie;czyszczenie"
 
 #: /views/index.handlebars
 msgid "Clear virginmap"
-msgstr "Wyczyść mapę nowych pikseli"
+msgstr "Wyczyść mapę nietkniętych pikseli"
 
 #: /views/index.handlebars
 msgid "(hotkey: <kbd>U</kbd>)"
-msgstr ""
+msgstr "(skrót klawiszowy: <kbd>U</kbd>)"
 
 #: /views/index.handlebars
 msgid "Layer template underneath heatmap"
@@ -918,7 +917,7 @@ msgstr "Szablon warstwy pod mapą cieplną"
 
 #: /views/index.handlebars
 msgid "grid;toggle grid"
-msgstr ""
+msgstr "siatka;przełącz siatkę"
 
 #: /views/index.handlebars
 msgid "Grid"
@@ -942,15 +941,15 @@ msgstr "Ustawienia sterowania"
 
 #: /views/index.handlebars
 msgid "zooming;scrolling;scale;scaling"
-msgstr ""
+msgstr "przybliżanie;scroll'owanie;skala;skalowanie"
 
 #: /views/index.handlebars
 msgid "Zooming"
-msgstr "Powiększanie"
+msgstr "Przybliżanie"
 
 #: /views/index.handlebars
 msgid "scrolling sensitivity;zooming sensitivity;mousewheel sensitivity"
-msgstr ""
+msgstr "czułość scroll'owania;czułość przybliżania;czułość scroll'a"
 
 #: /views/index.handlebars
 msgid "Zoom sensitivity:"
@@ -958,15 +957,15 @@ msgstr "Czułość zoomu:"
 
 #: /views/index.handlebars
 msgid "zooming limit;scrolling limit;mousewheel;zooming minimum;zooming maximum"
-msgstr ""
+msgstr "limit przybliżenia;limit scrollowania;scroll;minimalne przybliżenie;maksymalne przybliżenie"
 
 #: /views/index.handlebars
 msgid "Minimum scale:"
-msgstr ""
+msgstr "Mininalna skala:"
 
 #: /views/index.handlebars
 msgid "Maximum scale:"
-msgstr ""
+msgstr "Maksymalna skala:"
 
 #: /views/index.handlebars
 msgid "rounding;zooming;scrolling;mousewheel;integer;decimal"
@@ -982,23 +981,23 @@ msgstr "elementy sterujące;różne"
 
 #: /views/index.handlebars
 msgid "Lock the canvas (disallow canvas drag/zoom with mouse/fingers)"
-msgstr ""
+msgstr "Zablokuj płótno (zabroń przeciągania/powiększania płótna za pomocą myszy/palców)"
 
 #: /views/index.handlebars
 msgid "MMB picker;mouse picker;selection;palette picker"
-msgstr ""
+msgstr "selektor MMB; selektor myszy; wybór; selektor palety"
 
 #: /views/index.handlebars
 msgid "Enable middle mouse button selecting color from board"
-msgstr ""
+msgstr "Włącz środkowy przycisk myszy wybierając kolor z planszy"
 
 #: /views/index.handlebars
 msgid "right click action"
-msgstr ""
+msgstr "działanie po kliknięciu prawym przyciskiem myszy"
 
 #: /views/index.handlebars
 msgid "Right-click action:"
-msgstr ""
+msgstr "Akcja prawego przycisku myszy:"
 
 #: /views/index.handlebars
 msgid "Nothing"
@@ -1014,7 +1013,7 @@ msgstr "Skopiuj kolor"
 
 #: /views/index.handlebars
 msgid "Lookup"
-msgstr ""
+msgstr "Spójrz w górę"
 
 #: /views/index.handlebars
 msgid "Clear color + Lookup"
@@ -1022,23 +1021,23 @@ msgstr "Wyczyść kolor + wyszukiwanie"
 
 #: /views/index.handlebars
 msgid "snapshots;screenshot;download;picture;canvas"
-msgstr ""
+msgstr "migawki;zrzut ekranu;pobierz;obraz;płótno"
 
 #: /views/index.handlebars
 msgid "Snapshot Settings"
-msgstr ""
+msgstr "Ustawienia Migawki"
 
 #: /views/index.handlebars
 msgid "screenshot;snapshot;download;board;canvas"
-msgstr ""
+msgstr "zrzut ekranu;migawka;pobierz;tablica;płótno"
 
 #: /views/index.handlebars
 msgid "take screenshot;image;download format;picture;canvas;board"
-msgstr ""
+msgstr "zrób zrzut ekranu;obraz;format pobierania;obrazek;płótno;tablica"
 
 #: /views/index.handlebars
 msgid "Snapshot image format:"
-msgstr ""
+msgstr "Format obrazu migawki:"
 
 #: /views/index.handlebars
 msgid "PNG"
@@ -1054,11 +1053,11 @@ msgstr "WEBP (tylko Chrome)"
 
 #: /views/index.handlebars
 msgid "sound;notification;alert;notify;ping"
-msgstr ""
+msgstr "dźwięk;powiadomienie;alert;powiadomienie;ping"
 
 #: /views/index.handlebars
 msgid "Sound and Notification Settings"
-msgstr ""
+msgstr "Ustawienia dźwięku i powiadomień"
 
 #: /views/index.handlebars
 msgid "audio;mute;noise;volume"
@@ -1070,11 +1069,11 @@ msgstr "Włącz dźwięk"
 
 #: /views/index.handlebars
 msgid "notifs;notify;pixel notification"
-msgstr ""
+msgstr "powiadamia;powiadomienie;powiadomienie pikselowe"
 
 #: /views/index.handlebars
 msgid "Enable pixel available notification"
-msgstr ""
+msgstr "Włącz powiadomienie o dostępności piksela"
 
 #: /views/index.handlebars
 msgid "notification;pixel ready;alert"
@@ -1082,15 +1081,15 @@ msgstr "powiadomienie;pixel gotów;alert"
 
 #: /views/index.handlebars
 msgid "Pixel Ready Notification"
-msgstr ""
+msgstr "Powiadomienie o gotowości piksela"
 
 #: /views/index.handlebars
 msgid "alert source;notify url;notify source;notification url;notification source"
-msgstr ""
+msgstr "źródło alertu;url powiadomienia;źródło powiadomienia;url powiadomień;źródło powiadomień"
 
 #: /views/index.handlebars
 msgid "Alert URL:"
-msgstr ""
+msgstr "URL alertu:"
 
 #: /views/index.handlebars
 msgid "Update"
@@ -1102,7 +1101,8 @@ msgstr "Test"
 
 #: /views/index.handlebars
 msgid "sound level;audio level;mute audio;mute sound"
-msgstr ""
+msgstr "\n"
+"poziom dźwięku;poziom dźwięku;wycisz dźwięk;wycisz dźwięk"
 
 #: /views/index.handlebars
 msgid "Volume:"
@@ -1110,7 +1110,7 @@ msgstr "Głośność:"
 
 #: /views/index.handlebars
 msgid "alert forewarning;alert delay; notification delay; notification forewarning"
-msgstr ""
+msgstr "ostrzeżenie o alercie; opóźnienie alertu; opóźnienie powiadomienia; ostrzeżenie o powiadomieniu"
 
 #: /views/index.handlebars
 msgid "Delay (seconds):"
@@ -1126,15 +1126,15 @@ msgstr "Pingi czatu"
 
 #: /views/index.handlebars
 msgid "Enable pings"
-msgstr ""
+msgstr "Włącz pingi"
 
 #: /views/index.handlebars
 msgid "mention sound"
-msgstr ""
+msgstr "Dźwięk wspomnienia"
 
 #: /views/index.handlebars
 msgid "Play sound on ping:"
-msgstr ""
+msgstr "Odtwórz dźwięk przy pingowaniu:"
 
 #: /views/index.handlebars /public/include/chat.js
 msgid "Off"
@@ -1150,15 +1150,15 @@ msgstr "Zawsze"
 
 #: /views/index.handlebars
 msgid "mention sound volume"
-msgstr ""
+msgstr "Głośność dźwięku przy wspomnieniu"
 
 #: /views/index.handlebars
 msgid "Ping sound volume:"
-msgstr ""
+msgstr "Głośność dzwięku pinga:"
 
 #: /views/index.handlebars
 msgid "personal account"
-msgstr ""
+msgstr "Konto personalne"
 
 #: /views/profile.handlebars
 msgid "Account Settings"
@@ -1166,11 +1166,11 @@ msgstr "Ustawienia konta"
 
 #: /views/index.handlebars
 msgid "Public Discord name:"
-msgstr ""
+msgstr "Publiczna nazwa na discordzie:"
 
 #: /views/index.handlebars /public/include/chat.js
 msgid "Set"
-msgstr ""
+msgstr "Ustaw"
 
 #: /views/index.handlebars
 msgid "Remove"
@@ -1178,7 +1178,7 @@ msgstr "Usuń"
 
 #: /views/index.handlebars
 msgid "Help"
-msgstr ""
+msgstr "Pomoc"
 
 #: /views/profile.handlebars
 msgid "Notifications"
@@ -1202,7 +1202,7 @@ msgstr "Dlaczego jest napisane 0/6 pikseli?"
 
 #: /views/partials/faq.handlebars
 msgid "This means that you are waiting for your next pixel. When you place a pixel, there is a cooldown for when you can place the next one. Over time, you can gain up to 6 \"stacked\" pixels to place at once."
-msgstr ""
+msgstr "Oznacza to, że czekasz na następny piksel. Po umieszczeniu piksela następuje czas odnowienia, po którym można umieścić następny. Z czasem można uzyskać do 6 \"skumulowanych\" pikseli do umieszczenia jednocześnie."
 
 #: /views/partials/faq.handlebars
 msgid "Why does it take so long to \"stack\" pixels?"
@@ -1210,7 +1210,7 @@ msgstr "Dlaczego \"układanie\" pikseli trwa tak długo?"
 
 #: /views/partials/faq.handlebars
 msgid "This is by design. It is better to place a pixel as soon as you get one. Pixel \"stacking\" is meant to give you a bump if you go AFK for a bit. It takes around 40 minutes to get a full 6/6 pixels, but it only takes around 3 minutes to place 6 pixels if you place them as soon as possible."
-msgstr ""
+msgstr "Jest to zamierzone. Lepiej jest umieścić piksel, gdy tylko go zdobędziesz. \"Kumulowanie\" pikseli ma na celu zapewnienie ci wsparcia, jeśli na chwilę znikniesz z gry. Uzyskanie pełnych 6/6 pikseli zajmuje około 40 minut, ale umieszczenie 6 pikseli zajmuje tylko około 3 minut, jeśli umieścisz je tak szybko, jak to możliwe."
 
 #: /views/partials/faq.handlebars
 msgid "How do I appeal a ban?"
@@ -1226,7 +1226,7 @@ msgstr "Jak utworzyć szablon?"
 
 #: /views/partials/faq.handlebars
 msgid "A template is an image link that is posted in the template textbox in the settings panel so you can place over it on the canvas. You may use a regular image link to your pixel art, but many people use 3rd party tools like <a href=\"https://charity.pxls.space\" target=\"_blank\">Charity</a> or <a href=\"https://discord.gg/5MVDCq53vC\" target=\"blank\">Clueless</a> to turn pixel art into a fancier link. If you need to make pixel art yourself, you can use <a href=\"https://www.piskelapp.com/p/create\" target=\"_blank\">Piskel</a> to create art to put into Charity or Clueless."
-msgstr ""
+msgstr "Szablon to link do obrazu, który jest umieszczany w polu tekstowym szablonu w panelu ustawień, dzięki czemu można go umieścić na płótnie. Możesz użyć zwykłego linku do grafiki pikselowej, ale wiele osób korzysta z narzędzi innych firm, takich jak <a href=\"https://charity.pxls.space\" target=\"_blank\">Charity</a> lub <a href=\"https://discord.gg/5MVDCq53vC\" target=\"blank\">Clueless</a>, aby zamienić grafikę pikselową w bardziej wyszukany link. Jeśli chcesz samodzielnie stworzyć grafikę pikselową, możesz użyć <a href=\"https://www.piskelapp.com/p/create\" target=\"_blank\">Piskel</a>, aby utworzyć grafikę do umieszczenia w Charity lub Clueless."
 
 #: /views/partials/faq.handlebars
 msgid "How do I move a template?"
@@ -1234,15 +1234,15 @@ msgstr "Jak przesunąć szablon?"
 
 #: /views/partials/faq.handlebars
 msgid "Hold <kbd>CTRL</kbd> (or <kbd>OPTION</kbd> on macOS) and click and drag to move it around. On mobile, you can tap and hold where you want to move the template and click \"Move Template Here\" in the pop-up."
-msgstr ""
+msgstr "Przytrzymaj klawisz <kbd>CTRL</kbd> (lub <kbd>OPTION</kbd> na macOS), a następnie kliknij i przeciągnij, aby ją przesunąć. Na urządzeniach mobilnych możesz dotknąć i przytrzymać miejsce, w którym chcesz przenieść szablon, a następnie kliknąć \"Przenieś szablon tutaj\" w wyskakującym okienku."
 
 #: /views/partials/faq.handlebars
 msgid "Does the canvas reset? When?"
-msgstr ""
+msgstr "Czy płótno jest resetowane? Kiedy?"
 
 #: /views/partials/faq.handlebars
 msgid "Yes. The canvas resets when it is completely full. A reset date is not usually decided until the canvas is full, but the average canvas life-span is around 1 month. Updates are posted in our <a href=\"https://pxls.space/discord\" target=\"_blank\">Discord server</a> when a reset date is set."
-msgstr "Tak, płótno jest resetowane po całkowitym zapełnieniu. Data resetowania nie jest zwykle ustalana, dopóki płótno nie zostanie zapełnione, ale średnia żywotność płótna wynosi około 1 miesiąca. Aktualizacje są publikowane w naszym <a href=\"https://pxls.space/discord\" target=\"_blank\">serwerze Discord</a> po ustaleniu daty resetowania."
+msgstr "Tak, płótno jest resetowane po całkowitym zapełnieniu. Data resetowania nie jest zwykle ustalana, dopóki płótno nie zostanie zapełnione, ale średnia żywotność płótna wynosi około 2 tygodnie. Aktualizacje są publikowane w naszym <a href=\"https://pxls.space/discord\" target=\"_blank\">serwerze Discord</a> po ustaleniu daty resetowania."
 
 #: /views/partials/faq.handlebars
 msgid "Where can I see the past canvases?"
@@ -1266,7 +1266,7 @@ msgstr "Jak zgłosić kogoś?"
 
 #: /views/partials/faq.handlebars
 msgid "Shift-click (or tap and hold on mobile) on a pixel, and click the Report button."
-msgstr ""
+msgstr "Kliknij piksel z wciśniętym klawiszem Shift (lub dotknij i przytrzymaj na urządzeniu mobilnym) i kliknij przycisk Zgłoś."
 
 #: /views/partials/faq.handlebars
 msgid "How do I change the color of my name in the chat?"
@@ -1274,7 +1274,7 @@ msgstr "Jak zmienić kolor mojej nazwy na czacie?"
 
 #: /views/partials/faq.handlebars
 msgid "There is a \"Username Color\" option near the bottom of the settings panel."
-msgstr ""
+msgstr "W dolnej części panelu ustawień znajduje się opcja \"Kolor nazwy użytkownika\"."
 
 #: /views/partials/faq.handlebars
 msgid "What is a \"virginmap\"?"
@@ -1282,7 +1282,7 @@ msgstr "Co to jest mapa nietkniętych pikseli?"
 
 #: /views/partials/faq.handlebars
 msgid "The virginmap shows which pixels have not yet been placed on (or “virgin” pixels)."
-msgstr ""
+msgstr "Mapa nietkniętych pokazuje piksele, które nie zostały jeszcze umieszczone (lub piksele które nie były jeszcze przez nikogo używane)."
 
 #: /views/partials/faq.handlebars
 msgid "How do I report bugs?"
@@ -1290,7 +1290,7 @@ msgstr "Jak zgłosić błędy?"
 
 #: /views/partials/faq.handlebars
 msgid "Submit bugs to the #dev-and-bugs channel in the <a href=\"https://pxls.space/discord\" target=\"_blank\">Discord server</a>. If you have found an exploit, please message one of the staff members privately (through DMs)."
-msgstr ""
+msgstr "Zgłaszaj błędy na kanale #dev-and-bugs w <a href=\"https://pxls.space/discord\" target=\"_blank\">serwerze Discord</a>. Jeśli znalazłeś exploit, wyślij prywatną wiadomość do jednego z członków personelu (przez DM)."
 
 #: /views/partials/faq.handlebars
 msgid "How do I get more info or contact staff?"
@@ -1363,19 +1363,19 @@ msgstr "Nie nadużywaj funkcji witryny, takich jak zgłoszenia lub wyszukiwania.
 
 #: /views/partials/info.handlebars
 msgid "Any automated aggregation of data from user lookups is not allowed, and will result in a ban."
-msgstr ""
+msgstr "Jakiekolwiek automatyczne zbieranie danych pochodzących z wyszukiwań użytkowników jest niedozwolone i będzie skutkować zablokowaniem konta."
 
 #: /views/partials/info.handlebars
 msgid "Staff have final say in any rule disputes"
-msgstr ""
+msgstr "Ostatnie słowo w przypadku sporów dotyczących zasad należy do moderacji."
 
 #: /views/partials/info.handlebars
 msgid "If you feel a moderator has acted inappropriately, please report it to an administrator."
-msgstr ""
+msgstr "Jeśli uważasz, że moderator postąpił niewłaściwie, zgłoś to administratorowi."
 
 #: /views/partials/info.handlebars
 msgid "If you believe you have been falsely banned you may contact a moderator or administrator."
-msgstr ""
+msgstr "Jeśli uważasz, że zostałeś fałszywie zbanowany, możesz skontaktować się z moderatorem lub administratorem."
 
 #: /views/partials/info.handlebars
 msgid "Chat Rules"
@@ -1399,7 +1399,7 @@ msgstr "Zakaz spamowania"
 
 #: /views/partials/info.handlebars
 msgid "This includes excessive ASCII art/emojis/symbols/whitespace"
-msgstr ""
+msgstr "Obejmuje to nadmierną ilość grafiki ASCII/emojis/symboli/spacji."
 
 #: /views/partials/info.handlebars
 msgid "No \"copy pasta\"s"
@@ -1423,7 +1423,7 @@ msgstr "Linki"
 
 #: /views/partials/info.handlebars
 msgid "Terms of Service"
-msgstr ""
+msgstr "Warunki świadczenia usług"
 
 #: /views/partials/info.handlebars
 msgid "Privacy Policy"
@@ -1431,7 +1431,7 @@ msgstr "Polityka prywatności"
 
 #: /views/partials/info.handlebars
 msgid "Discord (main hub)"
-msgstr ""
+msgstr "Discord"
 
 #: /views/partials/info.handlebars
 msgid "Twitter"
@@ -1439,23 +1439,23 @@ msgstr "Twitter"
 
 #: /views/partials/info.handlebars
 msgid "GitHub (back end)"
-msgstr ""
+msgstr "GitHub (back end)"
 
 #: /views/partials/info.handlebars
 msgid "GitHub (front end)"
-msgstr ""
+msgstr "GitHub (front end)"
 
 #: /views/partials/info.handlebars
 msgid "Single-player mode"
-msgstr ""
+msgstr "Tryb dla jednego gracza"
 
 #: /views/partials/info.handlebars
 msgid "Statistics"
-msgstr ""
+msgstr "Statystyki"
 
 #: /views/partials/info.handlebars
 msgid "Profile (user info, factions, etc.)"
-msgstr ""
+msgstr "Profil (informacje o użytkowniku, frakcje itp.)"
 
 #: /views/partials/info.handlebars
 msgid "Wiki"
@@ -1463,11 +1463,11 @@ msgstr "Wiki"
 
 #: /views/partials/info.handlebars
 msgid "Generator, progress checker, and monitor for Pxls templates"
-msgstr ""
+msgstr "Generator, sprawdzanie postępu i monitorowanie szablonów Pxls"
 
 #: /views/partials/info.handlebars
 msgid "Charity (templates, monitors, etc.)"
-msgstr ""
+msgstr "Dobroczynność (szablony, monitory itp.)"
 
 #: /views/partials/info.handlebars
 msgid "Archives"
@@ -1475,15 +1475,15 @@ msgstr "Archiwum"
 
 #: /views/partials/info.handlebars
 msgid "PxlsFiddle (archives)"
-msgstr ""
+msgstr "PxlsFiddle (archiwum)"
 
 #: /views/partials/info.handlebars
 msgid "Donate"
-msgstr ""
+msgstr "Donate"
 
 #: /views/partials/info.handlebars
 msgid "Donations are not accepted at this time, but this panel will be updated when they're open again!"
-msgstr ""
+msgstr "W tej chwili nie przyjmujemy donatów, ale ten panel zostanie kiedyś zaktualizowany."
 
 #: /views/profile.handlebars
 msgid "{0}'s Profile"
@@ -1491,7 +1491,7 @@ msgstr "Profil {0}"
 
 #: /views/profile.handlebars
 msgid "My Data"
-msgstr ""
+msgstr "Moje Dane"
 
 #: /views/profile.handlebars
 msgid "Reports"
@@ -1503,7 +1503,7 @@ msgstr "Frakcje"
 
 #: /views/profile.handlebars
 msgid "Data"
-msgstr ""
+msgstr "Dane"
 
 #: /views/profile.handlebars
 msgid "You must be logged in to view your profile."
@@ -1511,11 +1511,11 @@ msgstr "Musisz być zalogowany, aby wyświetlić swój profil."
 
 #: /views/profile.handlebars
 msgid "Registration Date"
-msgstr ""
+msgstr "Data rejestracji"
 
 #: /views/profile.handlebars /public/include/lookup.js
 msgid "Alltime Pixels"
-msgstr ""
+msgstr "Wszystkie piksele"
 
 #: /views/profile.handlebars
 msgid "Current Canvas Pixels"
@@ -1523,7 +1523,7 @@ msgstr "Aktualne piksele płotna"
 
 #: /views/profile.handlebars
 msgid "Discord Tag"
-msgstr ""
+msgstr "Tag Discorda"
 
 #: /views/profile.handlebars /public/include/lookup.js
 msgid "Faction"
@@ -1551,7 +1551,7 @@ msgstr "Wygaśnięcie bana czatu"
 
 #: /views/profile.handlebars
 msgid "View rankings and other stats <a href=\"/stats\">here</a>."
-msgstr ""
+msgstr "Rankingi i inne statystyki możesz zobaczyć <a href=\"/stats\">tutaj</a>."
 
 #: /views/profile.handlebars
 msgid "You must be logged in to view your reports."
@@ -1574,11 +1574,11 @@ msgstr "Zgłoszenie na {0} (otwarte)"
 #. eg "Reported Bob on Jan 1, 1970, 00:00:00 AM (UTC)
 #: /views/profile.handlebars
 msgid "Reported {0} on {1}"
-msgstr ""
+msgstr "Zgłoszono {0} w dniu {1}"
 
 #: /views/profile.handlebars
 msgid "There are no canvas reports to show."
-msgstr ""
+msgstr "Brak raportów płutna do wyświetlenia."
 
 #: /views/profile.handlebars
 msgid "Chat Reports ({0}/{1} open)"
@@ -1586,7 +1586,7 @@ msgstr "Raporty czatu ({0}/{1} otwarte)"
 
 #: /views/profile.handlebars
 msgid "There are no chat reports to show."
-msgstr ""
+msgstr "Brak raportów czatu do wyświetlenia."
 
 #: /views/profile.handlebars
 msgid "You must be logged in to manage your factions."
@@ -1614,16 +1614,16 @@ msgstr "Dołącz"
 
 #: /views/profile.handlebars
 msgid "This is your currently displayed faction."
-msgstr ""
+msgstr "To jest Twoja aktualnie wyświetlana frakcja."
 
 #. eg "Pixelers (members: 100, ID: 1)"
 #: /views/profile.handlebars
 msgid "{0} (members: {1}, ID: {2})"
-msgstr ""
+msgstr "{0} (członkowie: {1}, identyfikator: {2})"
 
 #: /views/profile.handlebars
 msgid "Owner: {0}"
-msgstr ""
+msgstr "Właściciel: {0}"
 
 #. makes the faction no longer the one displayed for the current user
 #: /views/profile.handlebars
@@ -1633,7 +1633,7 @@ msgstr "Usuń wyświetlane"
 #. makes the faction the one displayed for the current user
 #: /views/profile.handlebars
 msgid "Set Displayed"
-msgstr ""
+msgstr "Ustaw wyświetlane"
 
 #: /views/profile.handlebars
 msgid "Members"
@@ -1661,11 +1661,11 @@ msgstr "Musisz być zalogowany, aby przeglądać swoje dane."
 
 #: /views/profile.handlebars
 msgid "Log Keys"
-msgstr ""
+msgstr "Log Keys"
 
 #: /views/profile.handlebars
 msgid "Log keys can be used by those who have them to tell which pixels you placed on previous canvases."
-msgstr ""
+msgstr "Log Keys mogą być używane przez osoby je posiadające w celu sprawdzenia, które piksele zostały umieszczone na poprzednich płótnach."
 
 #: /views/profile.handlebars
 msgid "Canvas Code"
@@ -1673,7 +1673,7 @@ msgstr "Kod płótna"
 
 #: /views/profile.handlebars
 msgid "Log Key"
-msgstr ""
+msgstr "Log Key"
 
 #: /views/profile.handlebars
 msgid "You have no log keys yet!"
@@ -1681,11 +1681,11 @@ msgstr "Nie masz jeszcze kluczy logowania!"
 
 #: /views/profile.handlebars
 msgid "Log keys should show up here after a canvas you have placed on ends."
-msgstr ""
+msgstr "Log Keys powinny się tutaj pojawić po umieszczeniu płótna na końcach"
 
 #: /views/profile.handlebars
 msgid "Members of {0} ([{1}])"
-msgstr ""
+msgstr "Członkowie {0} ([{1}])"
 
 #: /views/profile.handlebars /public/admin/admin.js /public/include/lookup.js
 msgid "Close"
@@ -1699,7 +1699,7 @@ msgstr "Członkowie frakcji"
 #. since we can't leave the faction until we transfer, if there's only one member in the list it's assumed to be the owner. we don't want to show ourself in the list
 #: /views/profile.handlebars
 msgid "Transfer Ownership"
-msgstr ""
+msgstr "Przenieś własność"
 
 #. bans a user from the faction
 #: /views/profile.handlebars /public/include/chat.js
@@ -1712,15 +1712,15 @@ msgstr "Nie ma tu nic do oglądania!"
 
 #: /views/profile.handlebars
 msgid "Faction Bans"
-msgstr ""
+msgstr "Bany frakcyjne"
 
 #: /views/profile.handlebars /public/admin/admin.js /public/include/chat.js
 msgid "Unban"
-msgstr ""
+msgstr "Odblokuj"
 
 #: /views/profile.handlebars
 msgid "Find A Faction"
-msgstr ""
+msgstr "Znajdź frakcję"
 
 #: /views/profile.handlebars
 msgid "Search:"
@@ -1728,7 +1728,7 @@ msgstr "Wyszukiwanie:"
 
 #: /views/profile.handlebars
 msgid "Enter a search term to get started."
-msgstr ""
+msgstr "Wprowadź termin wyszukiwania, aby rozpocząć."
 
 #: /views/profile.handlebars
 msgid "Load More"
@@ -1736,7 +1736,7 @@ msgstr "Załaduj więcej"
 
 #: /public/admin/admin.js
 msgid "Send alert..."
-msgstr ""
+msgstr "Wyślij powiadomienie..."
 
 #: /public/admin/admin.js /public/include/lookup.js
 msgid "Rule #1: Hateful/derogatory speech or symbols"
@@ -1760,12 +1760,12 @@ msgstr "Inne (określ poniżej)"
 
 #: /public/admin/admin.js /public/include/chat.js /public/include/lookup.js
 msgid "Additional information (if applicable)"
-msgstr ""
+msgstr "Informacje dodatkowe (jeśli są)"
 
 #. Revert pixels of the last *n* hours", part before 'n
 #: /public/admin/admin.js
 msgid "Revert pixels of the last "
-msgstr ""
+msgstr "Przywróć piksele z ostatnich"
 
 #. Revert pixels of the last *n* hours", part after 'n
 #: /public/admin/admin.js
@@ -1778,23 +1778,23 @@ msgstr "Musisz określić szczegóły."
 
 #: /public/admin/admin.js
 msgid "Something went wrong! Perhaps insufficient permissions?"
-msgstr ""
+msgstr "Coś poszło nie tak! Być może niewystarczające uprawnienia?"
 
 #: /public/admin/admin.js
 msgid "Shadowban user"
-msgstr ""
+msgstr "Shadowban użytkownika"
 
 #: /public/admin/admin.js
 msgid "Shadowbanned user"
-msgstr ""
+msgstr "Shadowbanned użytkownicy"
 
 #: /public/admin/admin.js
 msgid "Permaban user"
-msgstr ""
+msgstr "Permaban użytkowk"
 
 #: /public/admin/admin.js
 msgid "Permabanned user"
-msgstr ""
+msgstr "Permazbanowani użytkownicy"
 
 #: /public/admin/admin.js
 msgid "Ban user"
@@ -1806,12 +1806,12 @@ msgstr "Zbanowani uzytkownicy"
 
 #: /public/admin/admin.js
 msgid "Unbanned user ${username}"
-msgstr ""
+msgstr "Odblokuj użytkownika ${username}"
 
 #. Context: ban type
 #: /public/admin/admin.js
 msgid "shadow"
-msgstr ""
+msgstr "shadow"
 
 #: /public/admin/admin.js
 msgid "never"
@@ -1819,7 +1819,7 @@ msgstr "nigdy"
 
 #: /public/admin/admin.js
 msgid "permanent"
-msgstr ""
+msgstr "za zawsze"
 
 #: /public/admin/admin.js /public/include/chat.js /public/include/uiHelper.js
 #: /public/include/user.js
@@ -1833,7 +1833,7 @@ msgstr "Nie"
 
 #: /public/admin/admin.js
 msgid "Yes (permanent)"
-msgstr ""
+msgstr "Tak(na zawsze)"
 
 #: /views/profile.handlebars
 msgid "Username"
@@ -1845,11 +1845,11 @@ msgstr "Profil"
 
 #: /public/admin/admin.js
 msgid "Logins"
-msgstr ""
+msgstr "Logowania"
 
 #: /public/admin/admin.js
 msgid "All Time Pixels"
-msgstr ""
+msgstr "Wszystkie umieszczone piksele"
 
 #: /public/admin/admin.js /public/include/user.js
 msgid "Rename Requested"
@@ -1857,7 +1857,7 @@ msgstr "Zażądano zmianę nazwy"
 
 #: /public/admin/admin.js
 msgid "Discord Name"
-msgstr ""
+msgstr "Nazwa Discorda"
 
 #: /public/admin/admin.js /public/include/user.js
 msgid "Banned"
@@ -1897,28 +1897,28 @@ msgstr "Ban (24h)"
 
 #: /public/admin/admin.js
 msgid "Permaban"
-msgstr ""
+msgstr "Zpermabanowani"
 
 #: /public/admin/admin.js
 msgid "Shadowban"
-msgstr ""
+msgstr "Zshadowbanowani"
 
 #: /public/admin/admin.js
 msgid "Custom ban length: "
-msgstr ""
+msgstr "Niestandardowa długość bana: "
 
 #. Admin check. Example: type = 'username', arg = 'pxlsuser94'
 #: /public/admin/admin.js
 msgid "${type} ${arg} not found."
-msgstr ""
+msgstr "${type} ${arg} nie znaleźiony."
 
 #: /public/admin/admin.js
 msgid "Unban Reason:"
-msgstr ""
+msgstr "Uzasadnienie odblokowania:"
 
 #: /public/admin/admin.js
 msgid "Unbanning ${username}"
-msgstr ""
+msgstr "Odblokowanie użytkownika ${username}"
 
 #: /views/profile.handlebars
 msgid "Cancel"
@@ -1935,11 +1935,11 @@ msgstr "Ignoruj cooldown"
 
 #: /public/admin/admin.js
 msgid "Place any color"
-msgstr ""
+msgstr "Umieść dowolny kolor"
 
 #: /public/admin/admin.js
 msgid "Ignore placemap"
-msgstr ""
+msgstr "Ignoruj ​​mapę miejsc"
 
 #: /public/admin/admin.js
 msgid "Ban user (24h)"
@@ -1947,7 +1947,7 @@ msgstr "Zbanuj użytkownika (24h)"
 
 #: /public/admin/admin.js
 msgid "Unban user"
-msgstr ""
+msgstr "Odblokuj użytkownika"
 
 #: /public/admin/admin.js
 msgid "Check user"
@@ -1959,11 +1959,11 @@ msgstr "Profil"
 
 #: /public/admin/admin.js
 msgid "User Agent"
-msgstr ""
+msgstr "Agent użytkownika"
 
 #: /public/admin/admin.js
 msgid "Send Alert"
-msgstr ""
+msgstr "Wyślij powiadomienie"
 
 #: /public/admin/admin.js
 msgid "Mod Actions"
@@ -1971,12 +1971,12 @@ msgstr "Działania moda"
 
 #: /public/admin/admin.js
 msgid "More..."
-msgstr ""
+msgstr "Więcej..."
 
 #. Snapshot save name
 #: /public/include/board.js
 msgid "pxls canvas"
-msgstr ""
+msgstr "płótno pxls"
 
 #. template link action
 #: /public/include/chat.js
@@ -1997,7 +1997,7 @@ msgstr "Skocz do współrzędnych bez zamiany szablonu"
 
 #: /public/include/chat.js
 msgid "Please upload your template image to a third-party image host."
-msgstr ""
+msgstr "Prześlij obraz szablonu do zewnętrznego usługodawcy zajmującego się przechowywaniem obrazów."
 
 #: /public/include/chat.js
 msgid "You must have at least "
@@ -2025,7 +2025,7 @@ msgstr "nie podano"
 
 #: /public/include/chat.js
 msgid "Purged by ${purge.initiator} with reason: ${reason}"
-msgstr ""
+msgstr "Oczyścił(a) ${purge.initiator} z powodu: ${reason}"
 
 #: /public/include/chat.js
 msgid "External Link"
@@ -2033,7 +2033,7 @@ msgstr "Link zewnętrzny"
 
 #: /public/include/chat.js
 msgid "This link is taking you to the following website:"
-msgstr ""
+msgstr "Ten link przeniesie Cię do następującej witryny:"
 
 #: /public/include/chat.js
 msgid "The operators of this website have no responsibility or control over the contents hosted at {0}. Are you sure you want to go there?"
@@ -2045,7 +2045,7 @@ msgstr "Notka: To wyskakujące okienko można wyłączyć w ustawieniach."
 
 #: /public/include/chat.js
 msgid "Visit Site"
-msgstr ""
+msgstr "Odwiedź witrynę"
 
 #: /public/include/chat.js
 msgid "template:"
@@ -2057,7 +2057,7 @@ msgstr "Otwarcie nie powiodło się"
 
 #: /public/include/chat.js
 msgid "Failed to automatically open in a new tab"
-msgstr ""
+msgstr "Nie udało się automatycznie otworzyć w nowej karty"
 
 #: /public/include/chat.js
 msgid "Click here to open in a new tab instead"
@@ -2069,7 +2069,7 @@ msgstr "Otwórz szablon"
 
 #: /public/include/chat.js
 msgid "This link will overwrite your current template. What would you like to do?"
-msgstr ""
+msgstr "Ten link nadpisze Twój obecny szablon. Co chcesz zrobić?"
 
 #: /public/include/chat.js
 msgid "Note: You can set a default action in the settings menu which bypasses this popup completely."
@@ -2097,11 +2097,11 @@ msgstr "(Od)banowanie czatu"
 
 #: /public/include/chat.js
 msgid "Purge User"
-msgstr ""
+msgstr "Usuń użytkownika"
 
 #: /public/include/chat.js
 msgid "Mod Lookup"
-msgstr ""
+msgstr "Widok Moda"
 
 #: /public/include/chat.js
 msgid "Chat Lookup"
@@ -2109,7 +2109,7 @@ msgstr "Wyszukiwanie czatu"
 
 #: /public/include/chat.js
 msgid "Enter a reason for your report"
-msgstr ""
+msgstr "Wprowadź powód zgłoszenia"
 
 #: /public/include/chat.js
 msgid "You are reporting a chat message from ${reportTarget} with the content:"
@@ -2129,11 +2129,11 @@ msgstr "Zgłoś użytkownika"
 
 #: /public/include/chat.js
 msgid "User ignored. You can unignore from chat settings."
-msgstr ""
+msgstr "Użytkownik zignorowany. Możesz anulować ignorowanie w ustawieniach czatu."
 
 #: /public/include/chat.js
 msgid "Failed to ignore user. Either they\\'re already ignored, or an error occurred. If the problem persists, contact a developer."
-msgstr ""
+msgstr "Nie udało się zignorować użytkownika. Albo jest już ignorowany, albo wystąpił błąd. Jeśli problem będzie się powtarzał, skontaktuj się z deweloperem."
 
 #: /public/include/chat.js
 msgid "Permanent"
@@ -2165,11 +2165,11 @@ msgstr "Niestandardowy"
 
 #: /public/include/chat.js
 msgid "Banning:"
-msgstr ""
+msgstr "Banowanie:"
 
 #: /public/include/chat.js
 msgid "Message:"
-msgstr ""
+msgstr "Wiadomość:"
 
 #: /public/include/chat.js
 msgid "Ban Length"
@@ -2181,19 +2181,19 @@ msgstr "Powód"
 
 #: /public/include/chat.js
 msgid "Purge Messages"
-msgstr ""
+msgstr "Oczyść wiadomości"
 
 #: /public/include/chat.js
 msgid "Purging all messages is disabled during snip mode"
-msgstr ""
+msgstr "W trybie wycinania czyszczenie wszystkich wiadomości jest wyłączone"
 
 #: /public/include/chat.js
 msgid "Silent (no purge message)"
-msgstr ""
+msgstr "Cichy (brak komunikatu o czyszczeniu)"
 
 #: /public/include/chat.js
 msgid "Custom reason"
-msgstr ""
+msgstr "Niestandardowy powód"
 
 #: /public/include/chat.js
 msgid "Additional information:"
@@ -2201,11 +2201,11 @@ msgstr "Dodatkowe informacje:"
 
 #: /public/include/chat.js
 msgid "Chatban initiated"
-msgstr ""
+msgstr "Rozpoczęto chatban"
 
 #: /public/include/chat.js
 msgid "Error occurred while chatbanning"
-msgstr ""
+msgstr "Wystąpił błąd podczas blokowania czatu"
 
 #: /public/include/chat.js
 msgid "Chatban"
@@ -2213,7 +2213,7 @@ msgstr "Ban czatu"
 
 #: /public/include/chat.js
 msgid "Failed to delete"
-msgstr ""
+msgstr "Nie udało się usunąć"
 
 #: /public/include/chat.js
 msgid "ID: "
@@ -2249,19 +2249,19 @@ msgstr "Powód wyczyszczenia"
 
 #: /public/include/chat.js
 msgid "User purged"
-msgstr ""
+msgstr "Użytkownik usunięty"
 
 #: /public/include/chat.js
 msgid "Error sending purge."
-msgstr ""
+msgstr "Błąd podczas wysyłania oczyszczania."
 
 #: /public/include/chat.js
 msgid "Toggle Rename Request"
-msgstr ""
+msgstr "Przełącz prośbę zmiany nazwy"
 
 #: /public/include/chat.js
 msgid "Select one of the options below to set the current rename request state."
-msgstr ""
+msgstr "Wybierz jedną z poniższych opcji, aby ustawić bieżący stan prośby zmiany nazwy."
 
 #: /public/include/chat.js
 msgid "Rename request updated"
@@ -2277,7 +2277,7 @@ msgstr "Nowa nazwa: "
 
 #: /public/include/chat.js
 msgid "Enter the new name for the user below. Please note that if you\\'re trying to change the caps, you\\'ll have to rename to something else first."
-msgstr ""
+msgstr "Wprowadź nową nazwę użytkownika poniżej. Pamiętaj, że jeśli próbujesz zmienić wielkie litery, musisz najpierw zmienić nazwę na coś innego."
 
 #: /public/include/chat.js
 msgid "User renamed"
@@ -2305,7 +2305,7 @@ msgstr "Zgłoś piksel"
 
 #: /public/include/lookup.js
 msgid "This pixel is background (was not placed by a user)."
-msgstr ""
+msgstr "Ten piksel jest tłem (nie został umieszczony przez użytkownika)."
 
 #: /public/include/lookup.js
 msgid "Hide sensitive information"
@@ -2313,11 +2313,11 @@ msgstr "Ukryj wrażliwe informacje"
 
 #: /public/include/lookup.js
 msgid "Move Template Here"
-msgstr ""
+msgstr "Przenieś szablon tutaj"
 
 #: /public/include/lookup.js
 msgid "An error occurred, either you aren't logged in or you may be attempting to look up users too fast. Please try again in 60 seconds"
-msgstr ""
+msgstr "Wystąpił błąd, albo nie jesteś zalogowany, albo próbujesz wyszukać użytkowników zbyt szybko. Spróbuj ponownie za 60 sekund"
 
 #: /public/include/lookup.js
 msgid "Coords"
@@ -2337,7 +2337,7 @@ msgstr "Część nuke'a"
 
 #: /public/include/lookup.js
 msgid "Placed by a staff member using placement overrides"
-msgstr ""
+msgstr "Umieszczone przez członka personelu za pomocą nadpisywania umieszczenia"
 
 #: /public/include/lookup.js
 msgid "Time"
@@ -2412,7 +2412,7 @@ msgstr "Matowy"
 #. theme name
 #: /public/include/uiHelper.js
 msgid "Terminal"
-msgstr ""
+msgstr "Terminal"
 
 #. theme name
 #: /public/include/uiHelper.js
