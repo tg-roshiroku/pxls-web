@@ -3,6 +3,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
 "Project-Id-Version: pxls\n"
 "Language: pl\n"
 
@@ -272,7 +273,7 @@ msgstr "<kbd>H</kbd> aby uruchomić mapę aktywności"
 
 #: /views/index.handlebars
 msgid "overlays;user activity;pixels unplaced pixels;virginmap hidden;virginmap shown;hide virginmap;show virginmap"
-msgstr "nakładki;aktywność użytkownika;kolboracje pixele nie położone pixele;mapa niewykorzystywana ukryta;Mapa nietkniętych pikseli widoczna;pokaż mapę nietkniętych pikseli;schowaj mape niewykorzystywaną"
+msgstr "nakładki;aktywność użytkownika;kolboracje pixele nie położone pixele;mapa niewykorzystywana ukryta;mapa nietkniętych pikseli widoczna;pokaż mapę nietkniętych pikseli;schowaj mape niewykorzystywaną"
 
 #: /views/index.handlebars
 msgid "<kbd>X</kbd> to toggle virginmap"
@@ -1194,7 +1195,7 @@ msgstr "Dlaczego odnowienie jest takie długie?"
 
 #: /views/partials/faq.handlebars
 msgid "The time it takes to get a pixel is dynamic, and changes based on how many people are online. The cooldown time is longer when more users are online."
-msgstr "Czas potrzebny na odzyskanie piksela jest dynamiczny i zmienia się w zależności od liczby osób online. Czas schładzania jest dłuższy, gdy więcej użytkowników jest online."
+msgstr "Czas potrzebny na odzyskanie piksela jest dynamiczny i zmienia się w zależności od liczby osób online. Czas odnowienia jest dłuższy, gdy więcej użytkowników jest online."
 
 #: /views/partials/faq.handlebars
 msgid "Why does it say 0/6 pixels?"
@@ -1206,11 +1207,11 @@ msgstr "Oznacza to, że czekasz na następny piksel. Po umieszczeniu piksela nas
 
 #: /views/partials/faq.handlebars
 msgid "Why does it take so long to \"stack\" pixels?"
-msgstr "Dlaczego \"układanie\" pikseli trwa tak długo?"
+msgstr "Dlaczego \"kumulowanie\" pikseli trwa tak długo?"
 
 #: /views/partials/faq.handlebars
 msgid "This is by design. It is better to place a pixel as soon as you get one. Pixel \"stacking\" is meant to give you a bump if you go AFK for a bit. It takes around 40 minutes to get a full 6/6 pixels, but it only takes around 3 minutes to place 6 pixels if you place them as soon as possible."
-msgstr "Jest to zamierzone. Lepiej jest umieścić piksel, gdy tylko go zdobędziesz. \"Kumulowanie\" pikseli ma na celu zapewnienie ci wsparcia, jeśli na chwilę znikniesz z gry. Uzyskanie pełnych 6/6 pikseli zajmuje około 40 minut, ale umieszczenie 6 pikseli zajmuje tylko około 3 minut, jeśli umieścisz je tak szybko, jak to możliwe."
+msgstr "Jest to zamierzone. Lepiej jest umieścić piksel, gdy tylko go zdobędziesz. \"Kumulowanie\" pikseli ma na celu zapewnienie ci wsparcia, jeśli na chwilę znikniesz z gry. Uzyskanie pełnych 6/6 pikseli zajmuje około 3 minut, ale umieszczenie 6 pikseli zajmuje tylko około 10 sekund, jeśli umieścisz je tak szybko, jak to możliwe."
 
 #: /views/partials/faq.handlebars
 msgid "How do I appeal a ban?"
@@ -1218,7 +1219,7 @@ msgstr "Jak odwołać się od bana?"
 
 #: /views/partials/faq.handlebars
 msgid "Contact us on <a href=\"https://pxls.space/discord\" target=\"_blank\">Discord</a> or send an appeal to our <a href=\"https://pxls.space/appeal\" target=\"_blank\">Google form</a> after reading the rules in the site's info panel."
-msgstr "Skontaktuj się z nami na <a href=\"https://pxls.space/discord\" target=\"_blank\">Discord</a> lub wyślij odwołanie do naszego <a href=\"https://pxls.space/appeal\" target=\"_blank\">formularza Google</a> po przeczytaniu zasad w panelu informacyjnym witryny."
+msgstr "Skontaktuj się z nami na <a href=\"https://discord.gg/HYdYnGqfgd\" target=\"_blank\">Discord</a> lub wyślij odwołanie na naszym <a href=\"https://twitter.com/plvtuberpl\" target=\"_blank\">X'sie</a> po przeczytaniu zasad w panelu informacyjnym witryny."
 
 #: /views/partials/faq.handlebars
 msgid "How do I make a template?"
@@ -1242,7 +1243,7 @@ msgstr "Czy płótno jest resetowane? Kiedy?"
 
 #: /views/partials/faq.handlebars
 msgid "Yes. The canvas resets when it is completely full. A reset date is not usually decided until the canvas is full, but the average canvas life-span is around 1 month. Updates are posted in our <a href=\"https://pxls.space/discord\" target=\"_blank\">Discord server</a> when a reset date is set."
-msgstr "Tak, płótno jest resetowane po całkowitym zapełnieniu. Data resetowania nie jest zwykle ustalana, dopóki płótno nie zostanie zapełnione, ale średnia żywotność płótna wynosi około 2 tygodnie. Aktualizacje są publikowane w naszym <a href=\"https://pxls.space/discord\" target=\"_blank\">serwerze Discord</a> po ustaleniu daty resetowania."
+msgstr "Tak, płótno jest resetowane po całkowitym zapełnieniu. Data resetowania nie jest zwykle ustalana, dopóki płótno nie zostanie zapełnione, ale średnia żywotność płótna wynosi około 2 tygodnie."
 
 #: /views/partials/faq.handlebars
 msgid "Where can I see the past canvases?"
@@ -1250,7 +1251,7 @@ msgstr "Gdzie mogę zobaczyć poprzednie płótna?"
 
 #: /views/partials/faq.handlebars
 msgid "The past canvases are featured on our <a href=\"https://pxls.space/discord\" target=\"_blank\">Discord server</a>, or the 3rd party website <a href=\"https://pxlsfiddle.com\" target=\"_blank\">PxlsFiddle</a>, which records timelapses and a lot of useful information on each canvas."
-msgstr "Dotychczasowe płótna są prezentowane na naszym <a href=\"https://pxls.space/discord\" target=\"_blank\">serwerze Discord</a> lub na zewnętrznej stronie <a href=\"https://pxlsfiddle.com\" target=\"_blank\">PxlsFiddle</a>, która rejestruje timelapsy i wiele przydatnych informacji na temat każdego płótna."
+msgstr "Dotychczasowe płótna są prezentowane na naszej stronie po zakończeniu zabawy."
 
 #: /views/partials/faq.handlebars
 msgid "How do I see who placed a pixel?"
@@ -1282,7 +1283,7 @@ msgstr "Co to jest mapa nietkniętych pikseli?"
 
 #: /views/partials/faq.handlebars
 msgid "The virginmap shows which pixels have not yet been placed on (or “virgin” pixels)."
-msgstr "Mapa nietkniętych pokazuje piksele, które nie zostały jeszcze umieszczone (lub piksele które nie były jeszcze przez nikogo używane)."
+msgstr "Mapa nietkniętych pokazuje piksele, które nie zostały jeszcze umieszczone (lub piksele których nikt jeszcze nie dotykał)."
 
 #: /views/partials/faq.handlebars
 msgid "How do I report bugs?"
@@ -1290,7 +1291,7 @@ msgstr "Jak zgłosić błędy?"
 
 #: /views/partials/faq.handlebars
 msgid "Submit bugs to the #dev-and-bugs channel in the <a href=\"https://pxls.space/discord\" target=\"_blank\">Discord server</a>. If you have found an exploit, please message one of the staff members privately (through DMs)."
-msgstr "Zgłaszaj błędy na kanale #dev-and-bugs w <a href=\"https://pxls.space/discord\" target=\"_blank\">serwerze Discord</a>. Jeśli znalazłeś exploit, wyślij prywatną wiadomość do jednego z członków personelu (przez DM)."
+msgstr "Zgłaszaj błędy na kanale #pixelki w <a href=\"https://discord.gg/HYdYnGqfgd\" target=\"_blank\">serwerze Discord</a>. Jeśli znalazłeś exploit, wyślij prywatną wiadomość do jednego z członków personelu (przez DM)."
 
 #: /views/partials/faq.handlebars
 msgid "How do I get more info or contact staff?"
@@ -1298,7 +1299,7 @@ msgstr "Jak uzyskać więcej informacji lub skontaktować się z personelem?"
 
 #: /views/partials/faq.handlebars
 msgid "Check the info panel (the icon on the top left) for more details and links, or join our <a href=\"https://pxls.space/discord\" target=\"_blank\">Discord server</a>, where a staff member will gladly respond."
-msgstr "Sprawdź panel informacyjny (ikona w lewym górnym rogu), aby uzyskać więcej szczegółów i linków, lub dołącz do naszego <a href=\"https://pxls.space/discord\" target=\"_blank\">serwera Discord</a>, gdzie członek personelu chętnie odpowie."
+msgstr "Sprawdź panel informacyjny (ikona w lewym górnym rogu), aby uzyskać więcej szczegółów i linków, lub dołącz do naszego <a href=\"https://discord.gg/HYdYnGqfgd\" target=\"_blank\">serwera Discord</a>, gdzie członek personelu chętnie odpowie."
 
 #: /views/partials/info.handlebars
 msgid "Welcome!"
@@ -1403,7 +1404,7 @@ msgstr "Obejmuje to nadmierną ilość grafiki ASCII/emojis/symboli/spacji."
 
 #: /views/partials/info.handlebars
 msgid "No \"copy pasta\"s"
-msgstr "Zakaz \"copy pasty\""
+msgstr "Zakaz \"copy past\""
 
 #: /views/partials/info.handlebars
 msgid "No links to sites that actively break the canvas or chat rules (e.g. porn sites)"
@@ -1475,15 +1476,16 @@ msgstr "Archiwum"
 
 #: /views/partials/info.handlebars
 msgid "PxlsFiddle (archives)"
-msgstr "PxlsFiddle (archiwum)"
+msgstr "PLVTuberPixelki (archiwum)"
 
 #: /views/partials/info.handlebars
 msgid "Donate"
-msgstr "Donate"
+msgstr "Creadits"
 
 #: /views/partials/info.handlebars
 msgid "Donations are not accepted at this time, but this panel will be updated when they're open again!"
-msgstr "W tej chwili nie przyjmujemy donatów, ale ten panel zostanie kiedyś zaktualizowany."
+msgstr "Pomysłodawca trybu: Shiruba_sama."
+"Tryb został stworzony w oparciu o https://github.com/pxlsspace/pxls-web"
 
 #: /views/profile.handlebars
 msgid "{0}'s Profile"
@@ -2097,7 +2099,7 @@ msgstr "(Od)banowanie czatu"
 
 #: /public/include/chat.js
 msgid "Purge User"
-msgstr "Usuń użytkownika"
+msgstr "Wyczyść użytkownika"
 
 #: /public/include/chat.js
 msgid "Mod Lookup"
@@ -2453,8 +2455,7 @@ msgstr "Logując się lub rejestrując, wyrażasz zgodę na <a href=\"{0}\" targ
 
 #: /public/include/user.js
 msgid "Sign in with {0}"
-msgstr ""
-"Zaloguj za pomocą {0}"
+msgstr "Zaloguj za pomocą {0}"
 
 #: /public/include/user.js
 msgid "New Accounts Disabled"
