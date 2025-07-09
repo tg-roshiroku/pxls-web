@@ -61,7 +61,7 @@ exports.getLoadedPOFiles = () => ({ loadedPOFiles });
  * @returns {Promise<{poFile: PO, langCode: string}>}
  */
 async function getLanguageData(req) {
-  let langCode = req.cookies['pxls-accept-language-override'] || 'en';
+  let langCode = req.cookies['pxls-accept-language-override'] || 'pl';
   const poDirFiles = fs.readdirSync(path.join(__dirname, 'po'));
   if (!poDirFiles.includes(`Localization${langCode === 'en' ? '' : '_' + langCode}.po`)) {
     langCode = 'en';
