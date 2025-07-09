@@ -356,7 +356,7 @@ msgstr "<kbd>V</kbd> aby przełączyć widoczność"
 
 #: /views/index.handlebars
 msgid "Note: These values are based on QWERTY keyboards. For other layouts, use the keys corresponding to the same position on a QWERTY keyboard."
-msgstr "Notka: Wartości te są oparte na klawiaturach QWERTY. W przypadku innych układów należy użyć klawiszy odpowiadających tej samej pozycji na klawiaturze QWERTY.\n"
+msgstr "Notka: Wartości te są oparte na klawiaturach QWERTY. W przypadku innych układów należy użyć klawiszy odpowiadających tej samej pozycji na klawiaturze QWERTY."
 ""
 
 #: /views/index.handlebars
@@ -1101,7 +1101,7 @@ msgstr "Test"
 
 #: /views/index.handlebars
 msgid "sound level;audio level;mute audio;mute sound"
-msgstr "\n"
+msgstr ""
 "poziom dźwięku;poziom dźwięku;wycisz dźwięk;wycisz dźwięk"
 
 #: /views/index.handlebars
@@ -1326,7 +1326,7 @@ msgstr "Jesteśmy dumni z tego, że staramy się zachować otwartą przestrzeń 
 
 #: /views/partials/info.handlebars
 msgid "No hateful imagery or derogatory speech. This includes but is not limited to words such as <i>f****t</i>, <i>n****r</i>, etc; as well as the Swastika, Hammer and Sickle, and any symbols of terrorism."
-msgstr "Zakaz nienawistnych obrazów lub obraźliwych wypowiedzi. Obejmuje to między innymi słowa takie jak <i>c**l</i>, <i>n****r</i> itp., a także swastykę, młot i sierp oraz wszelkie symbole terroryzmu.\n"
+msgstr "Zakaz nienawistnych obrazów lub obraźliwych wypowiedzi. Obejmuje to między innymi słowa takie jak <i>c**l</i>, <i>n****r</i> itp., a także swastykę, młot i sierp oraz wszelkie symbole terroryzmu."
 ""
 
 #: /views/partials/info.handlebars
@@ -2453,7 +2453,7 @@ msgstr "Logując się lub rejestrując, wyrażasz zgodę na <a href=\"{0}\" targ
 
 #: /public/include/user.js
 msgid "Sign in with {0}"
-msgstr "\n"
+msgstr ""
 "Zaloguj za pomocą {0}"
 
 #: /public/include/user.js
